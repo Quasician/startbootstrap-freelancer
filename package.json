@@ -39,9 +39,7 @@
     },
     "dependencies": {
         "bootstrap": "4.5.0",
-        "shelljs": "^0.8.4"
-    },
-    "devDependencies": {
+        "shelljs": "^0.8.4",
         "autoprefixer": "9.8.0",
         "browser-sync": "2.26.7",
         "chokidar": "3.4.0",
