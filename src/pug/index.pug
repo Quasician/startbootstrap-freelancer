@@ -8,10 +8,10 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Freelancer - Start Bootstrap Theme
+        title EzTrain
 
         // Favicon
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel='icon', type='image/x-icon', href='assets/img/BigLogo.png')
 
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v5.13.0/js/all.js', crossorigin='anonymous')
@@ -28,26 +28,26 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
+                a.navbar-brand.js-scroll-trigger(href='#page-top') EzTrain
                 button.navbar-toggler.navbar-toggler-right.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    | Menu 
+                    | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto
                         li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#portfolio') Portfolio
+                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#airForce') Air Force
+                        li.nav-item.mx-0.mx-lg-1
+                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#commercial') Commercial
                         li.nav-item.mx-0.mx-lg-1
                             a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#about') About
-                        li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#contact') Contact
 
         // Masthead
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
                 // Masthead Avatar Image
-                img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='')
+                img.masthead-avatar.mb-5(src='assets/img/BigLogo.png', alt='')
                 // Masthead Heading
-                h1.masthead-heading.text-uppercase.mb-0 Start Bootstrap
+                h1.masthead-heading.text-uppercase.mb-0 EzTrain
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
@@ -55,13 +55,13 @@ html(lang='en')
                         i.fas.fa-star
                     .divider-custom-line
                 // Masthead Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Graphic Artist - Web Designer - Illustrator
+                p.masthead-subheading.font-weight-light.mb-0 Real-Time Communication - Data Analytics - Smart Scheduling
 
         // Portfolio Section
-        section#portfolio.page-section.portfolio
+        section#airForce.page-section.airForce
             .container
                 // Portfolio Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Portfolio
+                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Air Force
                 // Icon Divider
                 .divider-custom
                     .divider-custom-line
@@ -76,37 +76,92 @@ html(lang='en')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/cabin.png', alt='')
+                            img.img-fluid(src='assets/img/portfolio/Air_Combat_Command.png', alt='')
                     // Portfolio Item 2
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal2')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/cake.png', alt='')
+                            img.img-fluid(src='assets/img/portfolio/DreamJobInterview.jpg', alt='')
                     // Portfolio Item 3
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal3')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/circus.png', alt='')
+                            img.img-fluid(src='assets/img/portfolio/dashboard.png', alt='')
                     // Portfolio Item 4
                     .col-md-6.col-lg-4.mb-5.mb-lg-0
                         .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal4')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/game.png', alt='')
+                            img.img-fluid(src='assets/img/portfolio/schedule.jpg', alt='')
                     // Portfolio Item 5
                     .col-md-6.col-lg-4.mb-5.mb-md-0
                         .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal5')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/safe.png', alt='')
+                            img.img-fluid(src='assets/img/portfolio/excel.jpg', alt='')
                     // Portfolio Item 6
                     .col-md-6.col-lg-4
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal6')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/testimonial.jpg', alt='')
+
+        section#commercial.page-section.commercial
+            .container
+                // Portfolio Section Heading
+                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Commercial
+                // Icon Divider
+                .divider-custom
+                    .divider-custom-line
+                    .divider-custom-icon
+                        i.fas.fa-star
+                    .divider-custom-line
+                // Portfolio Grid Items
+                .row
+                    // Portfolio Item 1
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal7')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/dukeems.png', alt='')
+                    // Portfolio Item 2
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal8')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/uncems.png', alt='')
+                    // Portfolio Item 3
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal9')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/circus.png', alt='')
+                    // Portfolio Item 4
+                    .col-md-6.col-lg-4.mb-5.mb-lg-0
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal10')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/game.png', alt='')
+                    // Portfolio Item 5
+                    //.col-md-6.col-lg-4.mb-5.mb-md-0
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal5')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/safe.png', alt='')
+                    // Portfolio Item 6
+                    //.col-md-6.col-lg-4
                         .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal6')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
@@ -128,18 +183,18 @@ html(lang='en')
                 .row
                     .col-lg-4.ml-auto
                         p.lead
-                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                            | There is a clear need for process improvement and greater operational efficiency within Air Force Reserve training. Supervisors struggle to synthesize organized training schedules due to a complex system of data management that requires extensive communication between Microsoft Excel spreadsheets.
                     .col-lg-4.mr-auto
                         p.lead
-                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                            | EZTrain technology algorithmically identifies and collates relevant training information from large spreadsheets of data, with little input required from the user. By mapping every datapoint to a unique account, the application makes training profiles allowing for more personalized and organized training plans.
                 // About Section Button
-                .text-center.mt-4
+                //.text-center.mt-4
                     a.btn.btn-xl.btn-outline-light(href='https://startbootstrap.com/themes/freelancer/')
                         i.fas.fa-download.mr-2
                         | Free Download!
 
         // Contact Section
-        section#contact.page-section
+        //section#contact.page-section
             .container
                 // Contact Section Heading
                 h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
@@ -187,9 +242,9 @@ html(lang='en')
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Location
                         p.lead.mb-0
-                            | 2215 John Daniel Drive
+                            | 109 Glen Haven Drive
                             br
-                            | Clark, MO 65243
+                            | Chapel Hill, NC 27516
                     // Footer Social Icons
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Around the Web
@@ -197,21 +252,21 @@ html(lang='en')
                             i.fab.fa-fw.fa-facebook-f
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
                             i.fab.fa-fw.fa-twitter
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/company/eztrain-llc/')
                             i.fab.fa-fw.fa-linkedin-in
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
                             i.fab.fa-fw.fa-dribbble
                     // Footer About Text
                     .col-lg-4
-                        h4.text-uppercase.mb-4 About Freelancer
+                        h4.text-uppercase.mb-4 Contact Us
                         p.lead.mb-0
-                            | Freelance is a free to use, MIT licensed Bootstrap theme created by 
-                            a(href='http://startbootstrap.com') Start Bootstrap
-                            | .
+                            | You can reach us at eztrain.duke@gmail.com
+                            //a(href='http://startbootstrap.com') Start Bootstrap
+                            //| .
         // Copyright Section
         div.copyright.py-4.text-center.text-white
             .container
-                small Copyright © Your Website 2020
+                small Copyright © EzTrain 2020
         // Scroll to Top Button (Only visible on small and extra-small screen sizes)
         .scroll-to-top.d-lg-none.position-fixed
             a.js-scroll-trigger.d-block.text-center.text-white.rounded(href='#page-top')
@@ -231,7 +286,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal1Label Log Cabin
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal1Label Seymour Johnson AFB
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -239,10 +294,10 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cabin.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/Air_Combat_Command.png', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        | We are currently working with senior leadership at Seymour Johnson Air Force Base to make reserve training more efficient and increase communication between Air Force reserve members.
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
@@ -258,7 +313,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal2Label Tasty Cake
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal2Label 100+ Interviews
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -266,10 +321,10 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cake.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/DreamJobInterview.jpg', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        | From extensive interviews with leaders from all levels of Seymour Johnson Air Force Base, we understand that trainees are often unable to fully utilize their training time due to communication issues, poor accessibility to computers, and the sheer lack of an individual training schedule. In talking with leadership from other bases, we have come to understand that this problem that reserve training programs face is ubiquitous. EZTrain aims to increase the efficiency of reserve training time and ensure that trainees are able to complete tasks on-time for deployment readiness requirements.
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
@@ -285,7 +340,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal3Label Circus Tent
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal3Label Intuitive Dashboard
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -293,10 +348,10 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/circus.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/dashboard.png', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        |  By providing leaders with an intuitive digital dashboard, they can view the statuses of everyone in their group at a glance. The dashboard is updated as trainees complete tasks and send confirmation texts on their phone which ensures that access to a computer is not a bottleneck for a group’s efficiency. With a real-time task completion board, Section Chiefs will understand exactly who is working and how much they are achieving. EZTrain also provides a messaging service that can be used by leadership and trainees to inform everyone in real time.
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
@@ -312,7 +367,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal4Label Controller
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal4Label Smart Scheduling
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -320,10 +375,10 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/game.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/schedule.jpg', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        | The scheduling feature enables leadership to create smart schedules that ensure the maximum number of trainees are being trained on the most important tasks with the least amount of scheduling conflicts. Trainees will be able to see their schedules before their UTA weekend and plan accordingly. Since EZTrain’s internal database will keep track of finished tasks, leadership will be able to automatically generate updated trainee schedules for the next UTA weekend.
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
@@ -339,7 +394,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal5Label Locked Safe
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal5Label Complex Spreadsheet Synthesis
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -347,10 +402,10 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/safe.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/excel.jpg', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        | The Air Force reserve training program relies on many spreadsheets and databases to keep track of which tasks trainees have completed. EzTrain provides automatic master spreadsheet integration that creates a global log of all trainee datapoints with minimal user input.
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
@@ -366,7 +421,7 @@ html(lang='en')
                             .row.justify-content-center
                                 .col-lg-8
                                     // Portfolio Modal - Title
-                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal6Label Submarine
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal6Label User Testimonials
                                     // Icon Divider
                                     .divider-custom
                                         .divider-custom-line
@@ -374,10 +429,139 @@ html(lang='en')
                                             i.fas.fa-star
                                         .divider-custom-line
                                     // Portfolio Modal - Image
-                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/submarine.png', alt='')
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/testimonial.jpg', alt='')
                                     // Portfolio Modal - Text
                                     p.mb-5
-                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                        | “Productivity and engagement would directly go up” - Sgt. Herzog
+                                    p.mb-5
+                                        | “Keeping track of training would make a world of a difference”” - CMSgt. Birmingham
+                                    p.mb-5
+                                        | "Even if a wrench gets thrown in, using [EzTrain] we can maneuver and get things done." - Sgt. Rice
+                                    p.mb-5
+                                        | "If you make a paperwork trail trainees will get working" - Lt. Saunders
+                                    button.btn.btn-primary(data-dismiss='modal')
+                                        i.fas.fa-times.fa-fw
+                                        | Close Window
+        // Portfolio Modal 7
+        #portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='portfolioModal7Label', aria-hidden='true')
+            .modal-dialog.modal-xl(role='document')
+                .modal-content
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true')
+                            i.fas.fa-times
+                    .modal-body.text-center
+                        .container
+                            .row.justify-content-center
+                                .col-lg-8
+                                    // Portfolio Modal - Title
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal7Label User Testimonials
+                                    // Icon Divider
+                                    .divider-custom
+                                        .divider-custom-line
+                                        .divider-custom-icon
+                                            i.fas.fa-star
+                                        .divider-custom-line
+                                    // Portfolio Modal - Image
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/dukeems.png', alt='')
+                                    // Portfolio Modal - Text
+                                    p.mb-5
+                                        | “Productivity and engagement would directly go up” - Sgt. Herzog
+                                        | “Keeping track of training would make a world of a difference”” - CMSgt. Birmingham
+                                        | "Even if a wrench gets thrown in, using [EzTrain] we can maneuver and get things done." - Sgt. Rice
+                                        | "If you make a paperwork trail trainees will get working" - Lt. Saunders
+                                    button.btn.btn-primary(data-dismiss='modal')
+                                        i.fas.fa-times.fa-fw
+                                        | Close Window
+
+        // Portfolio Modal 8
+        #portfolioModal8.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='portfolioModal8Label', aria-hidden='true')
+            .modal-dialog.modal-xl(role='document')
+                .modal-content
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true')
+                            i.fas.fa-times
+                    .modal-body.text-center
+                        .container
+                            .row.justify-content-center
+                                .col-lg-8
+                                    // Portfolio Modal - Title
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal8Label User Testimonials
+                                    // Icon Divider
+                                    .divider-custom
+                                        .divider-custom-line
+                                        .divider-custom-icon
+                                            i.fas.fa-star
+                                        .divider-custom-line
+                                    // Portfolio Modal - Image
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/uncems.png', alt='')
+                                    // Portfolio Modal - Text
+                                    p.mb-5
+                                        | “Productivity and engagement would directly go up” - Sgt. Herzog
+                                        | “Keeping track of training would make a world of a difference”” - CMSgt. Birmingham
+                                        | "Even if a wrench gets thrown in, using [EzTrain] we can maneuver and get things done." - Sgt. Rice
+                                        | "If you make a paperwork trail trainees will get working" - Lt. Saunders
+                                    button.btn.btn-primary(data-dismiss='modal')
+                                        i.fas.fa-times.fa-fw
+                                        | Close Window
+
+        // Portfolio Modal 9
+        #portfolioModal9.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='portfolioModal9Label', aria-hidden='true')
+            .modal-dialog.modal-xl(role='document')
+                .modal-content
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true')
+                            i.fas.fa-times
+                    .modal-body.text-center
+                        .container
+                            .row.justify-content-center
+                                .col-lg-8
+                                    // Portfolio Modal - Title
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal9Label User Testimonials
+                                    // Icon Divider
+                                    .divider-custom
+                                        .divider-custom-line
+                                        .divider-custom-icon
+                                            i.fas.fa-star
+                                        .divider-custom-line
+                                    // Portfolio Modal - Image
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/testimonial.png', alt='')
+                                    // Portfolio Modal - Text
+                                    p.mb-5
+                                        | “Productivity and engagement would directly go up” - Sgt. Herzog
+                                        | “Keeping track of training would make a world of a difference”” - CMSgt. Birmingham
+                                        | "Even if a wrench gets thrown in, using [EzTrain] we can maneuver and get things done." - Sgt. Rice
+                                        | "If you make a paperwork trail trainees will get working" - Lt. Saunders
+                                    button.btn.btn-primary(data-dismiss='modal')
+                                        i.fas.fa-times.fa-fw
+                                        | Close Window
+
+        // Portfolio Modal 10
+        #portfolioModal10.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='portfolioModal10Label', aria-hidden='true')
+            .modal-dialog.modal-xl(role='document')
+                .modal-content
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true')
+                            i.fas.fa-times
+                    .modal-body.text-center
+                        .container
+                            .row.justify-content-center
+                                .col-lg-8
+                                    // Portfolio Modal - Title
+                                    h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0#portfolioModal10Label User Testimonials
+                                    // Icon Divider
+                                    .divider-custom
+                                        .divider-custom-line
+                                        .divider-custom-icon
+                                            i.fas.fa-star
+                                        .divider-custom-line
+                                    // Portfolio Modal - Image
+                                    img.img-fluid.rounded.mb-5(src='assets/img/portfolio/testimonial.png', alt='')
+                                    // Portfolio Modal - Text
+                                    p.mb-5
+                                        | “Productivity and engagement would directly go up” - Sgt. Herzog
+                                        | “Keeping track of training would make a world of a difference”” - CMSgt. Birmingham
+                                        | "Even if a wrench gets thrown in, using [EzTrain] we can maneuver and get things done." - Sgt. Rice
+                                        | "If you make a paperwork trail trainees will get working" - Lt. Saunders
                                     button.btn.btn-primary(data-dismiss='modal')
                                         i.fas.fa-times.fa-fw
                                         | Close Window
